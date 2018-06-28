@@ -1,0 +1,16 @@
+.nav {
+	&.nav-tabs {
+		.nav-item {
+			.nav-link {
+				color: $text-dark;
+				
+				border: none;
+				border-radius: 0;
+				&.active {
+					color: #FFFFFF;
+					background-color: #2196F3;
+				}
+			}
+		}
+	}
+}

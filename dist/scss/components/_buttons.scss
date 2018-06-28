@@ -1,0 +1,21 @@
+
+form.form-kptk {
+	.btn {
+		border: none;
+		border-radius: 0;
+		padding: 10px 20px;
+
+		font-size: 14px;
+
+		box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+		&.btn-primary {
+			background-color: $primarycolor;
+			&:hover {
+				background-color: #1976D2;
+			}
+		}
+		&:hover, &:focus {
+			box-shadow: none !important;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+@import "variables";
+@import "fonts";
+
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.form-control {
+	&:focus {
+		box-shadow: none;
+	}
+}
+
+.clearfix {
+	&:after {
+		display: block;
+		clear: both;
+		content: ' ';
+	}
+}

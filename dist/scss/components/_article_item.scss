@@ -1,0 +1,62 @@
+.article-item {
+	margin-top: 20px;
+	.article-image {
+		position: relative;
+
+		width: 100%;
+		height: auto;
+		img {
+			width: 100%;
+			height: auto;
+		}
+		.image-box {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+
+			padding: 30px 60px;
+
+			width: 100%;
+
+			background: linear-gradient( transparent , rgba( 0 , 0 , 0 , 0.95 ) );
+			.article-category {
+				display: inline-block; 
+				background-color: $primarycolor;
+
+				margin-bottom: 10px;
+				padding: 5px 15px;
+
+				color: #FFFFFF;
+				font-size: 11px;
+				font-weight: 700;
+
+				text-transform: uppercase;
+				a {
+					color: #FFFFFF;
+				}
+			}
+			.article-title {
+				font-size: 24px;
+				text-transform: uppercase;
+				a {
+					color: #FFFFFF;
+				}
+			}
+			.article-date {
+				color: #BEBEBE;
+				font-size: 14px;
+				.date-icon {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+	.article-content {
+		margin-top: 20px;
+		color: $text-dark !important;
+		font-size: 14px;
+		p {
+			font-size: 14px;
+		}
+	}
+}

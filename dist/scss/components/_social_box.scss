@@ -1,0 +1,60 @@
+.social-box {
+	width: 100%;
+	padding: 20px 0;
+
+	text-align: center;
+
+	color: #FFFFFF;
+	font-size: 12px;
+
+	transition: all .3s ease;
+	&:hover {
+		.social-icon {
+			transform: rotate( 360deg );
+		}
+	}
+	&.box-rss {
+		background-color: #F17C26;
+		&:hover {
+			background-color: #F18434;
+		}
+	}
+	&.box-facebook {
+		background-color: #436FEB;
+		&:hover {
+			background-color: #567EED;
+		}
+	}
+	&.box-twitter {
+		background-color: #43C9EB;
+		&:hover {
+			background-color: #56CEED;
+		}
+	}
+	&.box-google-plus {
+		background-color: #F14133;
+		&:hover {
+			background-color: #F25447;
+		}
+	}
+	.social-icon {
+		font-size: 14px;
+
+		transition: all 1s ease;
+	}
+	.social-count {
+		display: block;
+		font-weight: 600;
+	}
+	&.social-footer {
+		float: left;
+
+		width: 40px;
+		height: 40px;
+
+		margin-right: 5px;
+		padding: 12px 0;
+
+		background-color: #333333;
+	}
+}

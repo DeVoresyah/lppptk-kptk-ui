@@ -1,0 +1,23 @@
+.pagination {
+	margin-top: 20px;
+	margin-left: -5px;
+	.page-item {
+		.page-link {
+			margin: 0 5px;
+
+			color: $text-dark;
+			font-size: 14px;
+
+			border: 1px solid #E9E9E9;
+			border-radius: 3px;
+		}
+		&.active {
+			.page-link {
+				color: #FFFFFF;
+
+				background-color: $primarycolor;
+				border-color: $primarycolor;
+			}
+		}
+	}
+}
